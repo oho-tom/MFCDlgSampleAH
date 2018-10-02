@@ -1,25 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Resource">
-      <UniqueIdentifier>{f449f7a4-40bb-443b-b68a-226cd10d31dd}</UniqueIdentifier>
-    </Filter>
     <Filter Include="etc">
       <UniqueIdentifier>{7e4ef860-2df0-43c3-afe1-54e02ba27771}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Application">
+    <Filter Include="application">
       <UniqueIdentifier>{fcbded1c-6122-48ce-bb64-82da4aabd755}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Dialog">
+    <Filter Include="dialog">
       <UniqueIdentifier>{4253068f-9b19-4300-b3fc-d9df984bb214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="constant">
+      <UniqueIdentifier>{49ca40fd-17db-414c-b7b8-4c7aa600aa81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{f449f7a4-40bb-443b-b68a-226cd10d31dd}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyApp.h">
-      <Filter>Application</Filter>
+      <Filter>application</Filter>
     </ClInclude>
     <ClInclude Include="MyAppDlg.h">
-      <Filter>Dialog</Filter>
+      <Filter>dialog</Filter>
     </ClInclude>
     <ClInclude Include="stdafx.h">
       <Filter>etc</Filter>
@@ -28,15 +31,18 @@
       <Filter>etc</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
-      <Filter>Resource</Filter>
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="constant.h">
+      <Filter>constant</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyApp.cpp">
-      <Filter>Application</Filter>
+      <Filter>application</Filter>
     </ClCompile>
     <ClCompile Include="MyAppDlg.cpp">
-      <Filter>Dialog</Filter>
+      <Filter>dialog</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>etc</Filter>
@@ -44,17 +50,17 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\MyApp.ico">
-      <Filter>Resource</Filter>
+      <Filter>resource</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="MyApp.rc">
-      <Filter>Resource</Filter>
+      <Filter>resource</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="res\MyApp.rc2">
-      <Filter>Resource</Filter>
+      <Filter>resource</Filter>
     </None>
   </ItemGroup>
 </Project>

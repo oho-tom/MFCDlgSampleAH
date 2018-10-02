@@ -199,6 +199,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="constant.h" />
     <ClInclude Include="MyApp.h" />
     <ClInclude Include="MyAppDlg.h" />
     <ClInclude Include="Resource.h" />
